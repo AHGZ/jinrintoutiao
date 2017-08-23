@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- 日间模式 -->
+    <style name="day_theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorWhite</item>
+        <!--日间模式对应的字体颜色 和夜间模式对应的文本内容-->
+        <item name="textColor">@color/colorBlack</item>
+        <item name="textContent">@string/change_to_night</item>
+        <item name="downLoad">@drawable/downloadicon_leftdrawer_normal</item>
+        <item name="night">@drawable/nighticon_leftdrawer_normal</item>
+        <item name="settings">@drawable/settingicon_leftdrawer_normal</item>
+        <item name="cellPhone">@drawable/cellphone_leftdrawer_normal</item>
+        <item name="qq">@drawable/qq_leftdrawer_normal</item>
+        <item name="sina">@drawable/sina_leftdrawer_normal</item>
+        <item name="dynamicicon">@drawable/dynamicicon_leftdrawer</item>
+        <item name="topicicon">@drawable/topicicon_leftdrawer</item>
+        <item name="favor">@drawable/ic_action_favor_on_normal</item>
+        <item name="activityicon">@drawable/activityicon_leftdrawer</item>
+        <item name="sellicon">@drawable/sellicon_leftdrawer</item>
+    </style>
+
+    <!-- 夜间模式 -->
+    <style name="night_theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryDark">#666666</item>
+        <item name="colorAccent">#444444</item>
+        <item name="android:windowBackground">@color/colorBrown</item>
+        <!--夜间模式对应的字体颜色 和夜间模式对应的文本内容-->
+        <item name="textColor">@color/colorWhite</item>
+        <item name="textContent">@string/change_to_day</item>
+        <item name="downLoad">@drawable/downloadicon_leftdrawer_normal_night</item>
+        <item name="night">@drawable/dayicon_leftdrawer_normal_night</item>
+        <item name="settings">@drawable/settingicon_leftdrawer_normal_night</item>
+        <item name="cellPhone">@drawable/cellphone_leftdrawer_normal_night</item>
+        <item name="qq">@drawable/qq_leftdrawer_normal_night</item>
+        <item name="sina">@drawable/sina_leftdrawer_normal_night</item>
+        <item name="dynamicicon">@drawable/dynamicicon_leftdrawer_night</item>
+        <item name="topicicon">@drawable/topicicon_leftdrawer_night</item>
+        <item name="favor">@drawable/ic_action_favor_on_normal_night</item>
+        <item name="activityicon">@drawable/activityicon_leftdrawer_night</item>
+        <item name="sellicon">@drawable/sellicon_leftdrawer_night</item>
+    </style>
+    <!--全屏背景半透明 dialog-->
+    <style name="transparentBgDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

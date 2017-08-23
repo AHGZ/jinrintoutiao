@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="textColor" format="color"></attr>
+    <attr name="textContent" format="string"></attr>
+    <attr name="downLoad" format="dimension"></attr>
+    <attr name="night" format="dimension"></attr>
+    <attr name="settings" format="dimension"></attr>
+    <attr name="cellPhone" format="dimension"></attr>
+    <attr name="qq" format="dimension"></attr>
+    <attr name="sina" format="dimension"></attr>
+    <attr name="dynamicicon" format="dimension"></attr>
+    <attr name="topicicon" format="dimension"></attr>
+    <attr name="favor" format="dimension"></attr>
+    <attr name="activityicon" format="dimension"></attr>
+    <attr name="sellicon" format="dimension"></attr>
+</resources>
